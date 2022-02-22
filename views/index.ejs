@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>user</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    
+    <form method="POST" action="/add_user"  enctype="multipart/form-data">
+      <div>
+        <label>Select your profile picture:</label>
+        <input type="text" name="name" required/>
+        <label>Select your profile picture:</label>
+        <input type="email" name="email" required />
+        <label>Select your profile picture:</label>
+        <input type="file" name="picture" required/>
+          <label>Select your profile cv:</label>
+          <input type="file" name="cv" required/>
+      </div>
+      <div>
+          <input type="submit" value="save" />
+      </div>
+  </form>
+  </body>
+</html>
